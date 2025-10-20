@@ -1,0 +1,13 @@
+{
+  "name": "csv-html-splitter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "split:csv": "node tools/split_csv_html.js --input done.csv --out-csv done_light.csv --html-dir src"
+  },
+  "dependencies": {
+    "csv-parse": "^5.6.0",
+    "csv-stringify": "^6.6.0"
+  }
+}
